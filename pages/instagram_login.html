@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram_login_page</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .phn_img {
+            width: 450px;
+            height: 620px;
+            position: absolute;
+            top: 20px;
+            left: 250px;
+        }
+
+        .phn_bcgrd_img1 {
+            width: 238px;
+            height: 429px;
+            position: absolute;
+            top: 120px;
+            left: 400px;
+        }
+
+        /* first section css */
+        .section_1 {
+            width: 350px;
+            height: 380px;
+            border: 2px solid;
+            border-color: rgb(246, 239, 239);
+            position: absolute;
+            top: 50px;
+            left: 695px;
+            background-color: white;
+            box-shadow: 1px 1px 1px 1px rgb(231, 226, 226);
+
+        }
+
+        .insta_img {
+            width: 170px;
+            height: 50px;
+            position: relative;
+            top: 25px;
+            left: 80px;
+        }
+
+        .input_1 {
+            width: 290px;
+            height: 45px;
+            background-color: rgb(211, 228, 245);
+            border-radius: 4px;
+            padding: 20px;
+            position: relative;
+            top: 45px;
+            left: 29px;
+        }
+
+        .div_2 {
+            padding: 5px;
+            position: absolute;
+        }
+
+        .input_2 {
+            width: 290px;
+            height: 45px;
+            background-color: rgb(211, 228, 245);
+            border-radius: 4px;
+            padding: 20px;
+            position: relative;
+            top: 50px;
+            left: 25px;
+        }
+
+        .btn_1 {
+            width: 60px;
+            height: 39px;
+            border-radius: 4px;
+            background-color: rgb(237, 237, 246);
+            border-style: none;
+            position: relative;
+            top: 8px;
+            left: 253px;
+            padding: 9px;
+
+        }
+
+        .btn_2 {
+            width: 290px;
+            height: 35px;
+            border-radius: 5px;
+            background-color: rgb(74, 144, 205);
+            color: white;
+            border-style: none;
+            position: relative;
+            top: 110px;
+            left: 30px;
+        }
+
+        .div_3 {
+            position: absolute;
+            top: 335px;
+        }
+
+        hr {
+            width: 290px;
+            position: relative;
+            bottom: 70px;
+            left: 30px;
+
+        }
+
+        .btn_3 {
+            width: 25px;
+            height: 15px;
+            border-style: none;
+            color: grey;
+            position: relative;
+            bottom: 80px;
+            left: 160px;
+
+        }
+
+        .facebook_logo_img {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            right: 190px;
+            top: 200px;
+        }
+
+        .p_1 {
+            color: rgb(52, 88, 111);
+            font-size: 14px;
+            position: relative;
+            top: 169px;
+            left: 135px;
+        }
+
+        #Forget {
+            color: rgb(61, 107, 48);
+            position: relative;
+            font-size: 13px;
+            top: 185px;
+            left: 115px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* first section end */
+
+        /* second section  */
+        .section_2 {
+            width: 350px;
+            height: 60px;
+            background-color: white;
+            border: 2px solid;
+            border-color: rgb(246, 239, 239);
+            position: absolute;
+            top: 450px;
+            left: 695px;
+            box-shadow: 1px 1px 1px 1px rgb(231, 226, 226);
+        }
+
+        .p_2 {
+            position: relative;
+            top: 20px;
+            left: 80px;
+        }
+
+        .a_1 {
+            position: relative;
+            left: 235px;
+            text-decoration: none;
+            color: rgb(45, 110, 179);
+
+        }
+
+        /* second section end */
+        /* third section */
+
+        .section_3 {
+            width: 400px;
+            height: 90px;
+            border: 2px solid;
+            border-style: none;
+            position: relative;
+            bottom: 70px;
+            left: 720px;
+        }
+
+        .p_3 {
+            font-size: 16px;
+            position: absolute;
+            top: 600px;
+            left: 100px;
+        }
+
+        .appstore_img {
+            width: 35%;
+            height: 35px;
+            position: absolute;
+            top: 630px;
+        }
+
+        .googleplay_img {
+            width: 35%;
+            height: 35px;
+            position: absolute;
+            top: 630px;
+            right: 100px;
+        }
+
+        /* third section end */
+        /* footer part */
+
+        .footer_1 {
+            font-size: 14px;
+            color: gray;
+            position: absolute;
+            top: 700px;
+            left: 410px;
+        }
+
+        .footer_2 {
+            font-size: 14px;
+            color: gray;
+            position: absolute;
+            top: 730px;
+            left: 480px;
+        }
+
+        .copyright {
+
+            font-size: 14px;
+            color: gray;
+            position: absolute;
+            top: 780px;
+            left: 550px;
+
+        }
+
+        /* footer end */
+    </style>
+</head>
+
+<body>
+    <!-- main start -->
+    <main>
+        <section class="main_section">
+            <img class="phn_img" src="../asset/image/phone_insta.png" alt="">
+            <div class="image_div">
+                <img src="../asset/image/background2_insta .jpg" class="phn_bcgrd_img1" alt="">
+                <!-- <img src="../asset/image/background_insta.jpg" class="phn_bcgrd_img2" alt=""> -->
+            </div>
+            <section class="section_1">
+                <img class="insta_img" src="../asset/image/instagram.png" alt="">
+                <div class="div_1">
+                    <input type="text" name="name" class="input_1"
+                        placeholder="Phone number, username or email address">
+                </div>
+                <div class="div_2">
+                    <input type="password" class="input_2" placeholder="Password">
+                    <button class="btn_1">Show</button>
+                </div>
+                <button class="btn_2"> Log In</button>
+                <div class="div_3">
+                    <hr>
+                    <button class="btn_3">OR</button>
+                </div>
+                <img src="../asset/image/facebook_logo.png" alt="" class="facebook_logo_img">
+                <p class="p_1"> <b>Log in with Facebook </b></p>
+                <a href="#" id="Forget">Forgotten your password?</a>
+            </section>
+            <section class="section_2">
+                <p class="p_2">Don't have an account?</p>
+                <a href="#" class="a_1"> Sign up</a>
+            </section>
+            <section class="section_3">
+                <p class="p_3">Get the app.</p>
+                <img src="../asset/image/appstore_insta.png" class="appstore_img" alt="">
+                <img src="../asset/image/googleplay_insta.png" class="googleplay_img" alt="">
+            </section>
+        </section>
+    </main>
+    <!-- main part end -->
+    <!-- footer start -->
+    <footer>
+        <div class="footer_div">
+            <p class="footer_1">About &nbsp; Blog &nbsp; joob &nbsp;help &nbsp; API &nbsp; privcy &nbsp; terms &nbsp;
+                topaccount &nbsp; hashtag &nbsp; location &nbsp; instagramlite </p>
+            <p class="footer_2">beauty &nbsp;dance &nbsp;fitness &nbsp;food&drink &nbsp;home&garden &nbsp;music
+                &nbsp;visualart</p>
+            <p class="copyright"> Englisg(UK)^
+                @2021 instagram from facebook</p>
+        </div>
+    </footer>
+    <!-- footer part end -->
+
+</body>
+
+</html>
